@@ -1,3 +1,8 @@
+# Service Account JSON
+
+To get the idea about Service Account JSON you can visit
+https://aboutreact.com/react-native-firebase-cloud-messaging/
+
 # To Run the Project
 
 - Clone Repo
@@ -16,6 +21,12 @@
 
   ```bash
    npm install
+  ```
+
+- Update the service account file path:
+
+  ```bash
+   const serviceAccount = require("/Users/kepi/Desktop/MainRepo/service-account-file.json");
   ```
 
 - Run the app:
